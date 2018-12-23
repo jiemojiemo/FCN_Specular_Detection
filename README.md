@@ -1,12 +1,12 @@
 # FCN_Specular_Detection
 
-You need install **keras** to run this code
+You need to install **Keras** to run this code
 
 ## Training dataset
 
-**CVC-EndoSceneStill**(need register):http://www.cvc.uab.es/CVC-Colon/index.php/databases/cvc-endoscenestill/
+**CVC-EndoSceneStill**(need registration):http://www.cvc.uab.es/CVC-Colon/index.php/databases/cvc-endoscenestill/
 
-"bbdd" and "gtspecular" is enough for specular detection, 
+"bbdd" and "gtspecular" is enough for specular detection,
 but you need transform BMP images to PNG images because there will be an error when decoding the BMP image by using the tensorflow
 
 Database related to the paper “A Benchmark for Endoluminal Scene Segmentation of Colonoscopy Images” (D. Vázquez, J. Bernal, F.J. Sánchez, G. Fernández-Esparrach, A.M. López, A. Romero, M. Drozdzal and A. Courville)
